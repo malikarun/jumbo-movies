@@ -1,10 +1,9 @@
-
-import React, { Component, Fragment, ChangeEvent } from 'react';
-import Tabs from '@material-ui/core/Tabs';
+import { withStyles } from '@material-ui/core/styles';
 import Tab from '@material-ui/core/Tab';
-import Movies from '../Movies';
-import Shows from '../Shows';
-import { withStyles } from '@material-ui/core';
+import Tabs from '@material-ui/core/Tabs';
+import React, { ChangeEvent, Component } from 'react';
+import { IApiListData, IMedia } from '../../interfaces';
+import List from '../List';
 
 interface IProps {
     classes: any;
@@ -12,25 +11,43 @@ interface IProps {
 
 interface IState {
     selectedTab: number;
+    movies: IMedia[];
+    shows: IMedia[];
 }
 
 const styles = {
     root: {
-        padding: 20
+        padding: '2vw'
     }
 }
+
+const api_key = '6ed12e064b90ae1290fa326ce9e790ff';
+const movieApiUrl = `https://api.themoviedb.org/3/movie/popular?api_key=${api_key}`;
+const tvApiUrl = `https://api.themoviedb.org/3/tv/popular?api_key=${api_key}`;
 
 class Dashboard extends Component<IProps, IState> {
     state = {
         selectedTab: 0,
-    };
+        movies: [],
+        shows: []
+    }
 
     handleChange = (event: ChangeEvent<{}>, selectedTab: any) => {
         this.setState({ selectedTab });
-    };
+    }
+
+    async componentDidMount() {
+        const moviesData: IApiListData = await fetch(movieApiUrl).then((res: Response) => res.json());
+        const showsData: IApiListData = await fetch(tvApiUrl).then((res: Response) => res.json());
+
+        this.setState({
+            movies: moviesData.results,
+            shows: showsData.results
+        })
+    }
 
     render() {
-        const { selectedTab } = this.state;
+        const { selectedTab, movies, shows } = this.state;
         const { classes } = this.props;
 
         return (
@@ -46,8 +63,8 @@ class Dashboard extends Component<IProps, IState> {
                     <Tab label="TV Shows" />
                 </Tabs>
 
-                {selectedTab === 0 && <Movies/>}
-                {selectedTab === 1 && <Shows />}
+                {selectedTab === 0 && <List items={movies} header='Movies' path='movie'/>}
+                {selectedTab === 1 && <List items={shows} header='TV Shows' path='tv' />}
             </div>
         );
     }

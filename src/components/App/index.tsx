@@ -19,7 +19,7 @@ class App extends Component<{}, {}> {
                 </AppBar>
 
                 <Route path="/" exact component={Dashboard} />
-                <Route path="/:id" component={Details} />
+                <Route path="/:type/:id" exact component={Details} />
             </Router>
         );
     }
