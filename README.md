@@ -1,7 +1,7 @@
 ## TODO
-Search functionality
-Add Redux
-Add RxJs (Redux Observables)
+- [ ] Search functionality
+- [ ] Add Redux
+- [ ] Add RxJs (Redux Observables)
 
 ## Available Scripts
 
