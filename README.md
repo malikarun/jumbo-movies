@@ -1,5 +1,5 @@
 ## TODO
-- [ ] Search functionality
+- [ ] Add Tests
 - [ ] Add Redux
 - [ ] Add RxJs (Redux Observables)
 
