@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should show an item 1`] = `
+Array [
+  <header
+    className="MuiPaper-root-185 MuiPaper-elevation4-191 MuiAppBar-root-176 MuiAppBar-positionStatic-180 MuiAppBar-colorPrimary-183"
+  >
+    <div
+      className="MuiToolbar-root-212 MuiToolbar-regular-214 MuiToolbar-gutters-213"
+    >
+      <h6
+        className="MuiTypography-root-216 MuiTypography-h6-233 MuiTypography-colorInherit-245"
+      >
+        Jumbo Movies
+      </h6>
+    </div>
+  </header>,
+  <div
+    className="Dashboard-root-252"
+  >
+    <div
+      className="MuiTabs-root-253"
+    >
+      <div
+        className="MuiTabs-flexContainer-254"
+      >
+        <div
+          className="MuiTabs-scroller-256 MuiTabs-fixed-257"
+          onScroll={[Function]}
+          role="tablist"
+          style={
+            Object {
+              "marginBottom": 0,
+            }
+          }
+        >
+          <div
+            className="MuiTabs-flexContainer-254 MuiTabs-centered-255"
+          >
+            <button
+              aria-selected={true}
+              className="MuiButtonBase-root-274 MuiTab-root-262 MuiTab-textColorPrimary-265 MuiTab-selected-267"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="tab"
+              tabIndex="0"
+              type="button"
+            >
+              <span
+                className="MuiTab-wrapper-270"
+              >
+                <span
+                  className="MuiTab-labelContainer-271"
+                >
+                  <span
+                    className="MuiTab-label-272"
+                  >
+                    Movies
+                  </span>
+                </span>
+              </span>
+              <span
+                className="MuiTouchRipple-root-344"
+              />
+            </button>
+            <button
+              aria-selected={false}
+              className="MuiButtonBase-root-274 MuiTab-root-262 MuiTab-textColorPrimary-265"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="tab"
+              tabIndex="0"
+              type="button"
+            >
+              <span
+                className="MuiTab-wrapper-270"
+              >
+                <span
+                  className="MuiTab-labelContainer-271"
+                >
+                  <span
+                    className="MuiTab-label-272"
+                  >
+                    TV Shows
+                  </span>
+                </span>
+              </span>
+              <span
+                className="MuiTouchRipple-root-344"
+              />
+            </button>
+          </div>
+          <span
+            className="MuiPrivateTabIndicator-root-277 MuiPrivateTabIndicator-colorPrimary-278 MuiTabs-indicator-261"
+            style={
+              Object {
+                "left": 0,
+                "width": 0,
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiFormControl-root-281 MuiFormControl-fullWidth-284"
+    >
+      <label
+        className="MuiFormLabel-root-296 MuiInputLabel-root-285 MuiInputLabel-formControl-290 MuiInputLabel-animated-293 MuiInputLabel-shrink-292"
+        data-shrink={true}
+      >
+        Search
+      </label>
+      <div
+        className="MuiInputBase-root-316 MuiInput-root-303 MuiInput-underline-307 MuiInputBase-fullWidth-325 MuiInput-fullWidth-310 MuiInputBase-formControl-317 MuiInput-formControl-304"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          className="MuiInputBase-input-326 MuiInput-input-311"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Placeholder"
+          required={false}
+          type="text"
+        />
+      </div>
+    </div>
+    <ul
+      className="MuiGridList-root-333"
+      style={
+        Object {
+          "margin": -2,
+        }
+      }
+    >
+      <li
+        className="MuiGridListTile-root-334"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "100%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile-335"
+        >
+          <div
+            className="MuiListSubheader-root-338 MuiListSubheader-sticky-343 MuiListSubheader-gutters-341"
+          >
+            Movies
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>,
+]
+`;

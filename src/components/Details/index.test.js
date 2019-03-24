@@ -1,5 +1,5 @@
 import React from 'react';
-import Details from './index';
+import Details from '.';
 import renderer from 'react-test-renderer';
 import { BrowserRouter, Route } from 'react-router-dom';
 

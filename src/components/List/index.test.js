@@ -1,5 +1,5 @@
 import React from 'react';
-import List from './index';
+import List from '.';
 import renderer from 'react-test-renderer';
 
 test('Should create a list of items', () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Dashboard from './index';
+import Dashboard from '.';
 import renderer from 'react-test-renderer';
 
 test('Should show an item', () => {
