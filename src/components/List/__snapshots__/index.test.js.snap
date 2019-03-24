@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should create a list of items 1`] = `
+Array [
+  <div
+    className="MuiFormControl-root-2 MuiFormControl-fullWidth-5"
+  >
+    <label
+      className="MuiFormLabel-root-17 MuiInputLabel-root-6 MuiInputLabel-formControl-11 MuiInputLabel-animated-14 MuiInputLabel-shrink-13"
+      data-shrink={true}
+    >
+      Search
+    </label>
+    <div
+      className="MuiInputBase-root-37 MuiInput-root-24 MuiInput-underline-28 MuiInputBase-fullWidth-46 MuiInput-fullWidth-31 MuiInputBase-formControl-38 MuiInput-formControl-25"
+      onClick={[Function]}
+    >
+      <input
+        aria-invalid={false}
+        className="MuiInputBase-input-47 MuiInput-input-32"
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="Placeholder"
+        required={false}
+        type="text"
+      />
+    </div>
+  </div>,
+  <ul
+    className="MuiGridList-root-54"
+    style={
+      Object {
+        "margin": -2,
+      }
+    }
+  >
+    <li
+      className="MuiGridListTile-root-55"
+      style={
+        Object {
+          "height": "auto",
+          "padding": 2,
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        className="MuiGridListTile-tile-56"
+      >
+        <div
+          className="MuiListSubheader-root-59 MuiListSubheader-sticky-64 MuiListSubheader-gutters-62"
+        >
+          haha
+        </div>
+      </div>
+    </li>
+  </ul>,
+]
+`;

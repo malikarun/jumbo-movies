@@ -8588,7 +8588,7 @@ react-event-listener@^0.6.0, react-event-listener@^0.6.2:
     prop-types "^15.6.0"
     warning "^4.0.1"
 
-react-is@^16.6.0, react-is@^16.6.3, react-is@^16.7.0, react-is@^16.8.1:
+react-is@^16.6.0, react-is@^16.6.3, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.5:
   version "16.8.5"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.5.tgz#c54ac229dd66b5afe0de5acbe47647c3da692ff8"
   integrity sha512-sudt2uq5P/2TznPV4Wtdi+Lnq3yaYW8LfvPKLM9BKD8jJNBkxMVyB0C9/GmVhLw7Jbdmndk/73n7XQGeN9A3QQ==
@@ -8712,6 +8712,16 @@ react-swipeable-views@^0.13.1:
     react-swipeable-views-core "^0.13.1"
     react-swipeable-views-utils "^0.13.1"
     warning "^4.0.1"
+
+react-test-renderer@^16.8.5:
+  version "16.8.5"
+  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.8.5.tgz#4cba7a8aad73f7e8a0bc4379a0fe21632886a563"
+  integrity sha512-/pFpHYQH4f35OqOae/DgOCXJDxBqD3K3akVfDhLgR0qYHoHjnICI/XS9QDwIhbrOFHWL7okVW9kKMaHuKvt2ng==
+  dependencies:
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    react-is "^16.8.5"
+    scheduler "^0.13.5"
 
 react-transition-group@^2.2.1:
   version "2.7.0"

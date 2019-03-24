@@ -1,5 +1,4 @@
 ## TODO
-- [ ] Add Tests
 - [ ] Add Redux
 - [ ] Add RxJs (Redux Observables)
 

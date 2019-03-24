@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should show an item 1`] = `
+<div
+  className="Dashboard-root-1"
+>
+  <div
+    className="MuiTabs-root-2"
+  >
+    <div
+      className="MuiTabs-flexContainer-3"
+    >
+      <div
+        className="MuiTabs-scroller-5 MuiTabs-fixed-6"
+        onScroll={[Function]}
+        role="tablist"
+        style={
+          Object {
+            "marginBottom": 0,
+          }
+        }
+      >
+        <div
+          className="MuiTabs-flexContainer-3 MuiTabs-centered-4"
+        >
+          <button
+            aria-selected={true}
+            className="MuiButtonBase-root-23 MuiTab-root-11 MuiTab-textColorPrimary-14 MuiTab-selected-16"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="tab"
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiTab-wrapper-19"
+            >
+              <span
+                className="MuiTab-labelContainer-20"
+              >
+                <span
+                  className="MuiTab-label-21"
+                >
+                  Movies
+                </span>
+              </span>
+            </span>
+            <span
+              className="MuiTouchRipple-root-93"
+            />
+          </button>
+          <button
+            aria-selected={false}
+            className="MuiButtonBase-root-23 MuiTab-root-11 MuiTab-textColorPrimary-14"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="tab"
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiTab-wrapper-19"
+            >
+              <span
+                className="MuiTab-labelContainer-20"
+              >
+                <span
+                  className="MuiTab-label-21"
+                >
+                  TV Shows
+                </span>
+              </span>
+            </span>
+            <span
+              className="MuiTouchRipple-root-93"
+            />
+          </button>
+        </div>
+        <span
+          className="MuiPrivateTabIndicator-root-26 MuiPrivateTabIndicator-colorPrimary-27 MuiTabs-indicator-10"
+          style={
+            Object {
+              "left": 0,
+              "width": 0,
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiFormControl-root-30 MuiFormControl-fullWidth-33"
+  >
+    <label
+      className="MuiFormLabel-root-45 MuiInputLabel-root-34 MuiInputLabel-formControl-39 MuiInputLabel-animated-42 MuiInputLabel-shrink-41"
+      data-shrink={true}
+    >
+      Search
+    </label>
+    <div
+      className="MuiInputBase-root-65 MuiInput-root-52 MuiInput-underline-56 MuiInputBase-fullWidth-74 MuiInput-fullWidth-59 MuiInputBase-formControl-66 MuiInput-formControl-53"
+      onClick={[Function]}
+    >
+      <input
+        aria-invalid={false}
+        className="MuiInputBase-input-75 MuiInput-input-60"
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="Placeholder"
+        required={false}
+        type="text"
+      />
+    </div>
+  </div>
+  <ul
+    className="MuiGridList-root-82"
+    style={
+      Object {
+        "margin": -2,
+      }
+    }
+  >
+    <li
+      className="MuiGridListTile-root-83"
+      style={
+        Object {
+          "height": "auto",
+          "padding": 2,
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        className="MuiGridListTile-tile-84"
+      >
+        <div
+          className="MuiListSubheader-root-87 MuiListSubheader-sticky-92 MuiListSubheader-gutters-90"
+        >
+          Movies
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
